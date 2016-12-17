@@ -1,1 +1,115 @@
-*{box-sizing:border-box}.container{margin:auto;width:100%}.logo{position:absolute;margin-top:2%}.introduction{position:relative;float:right;padding-left:7%!important}.title{font-size:6vw}.position{font-size:4.5vw;margin-top:0}hr{border-top:5px solid #eee!important}.computer-img{max-width:102%}footer{margin-top:5%;background-color:#000;padding-top:3%}.copyright{margin-top:3%}.margin-right-xs{margin-right:1%}.margin-top-sm{margin-top:5%}.color-white{color:#fff}.text-center-webkit{text-align:-webkit-center}@media only screen and (min-width:768px) and (max-width:1320px){.fa-terminal{font-size:5em}.title{margin-left:53%;font-size:3vw}.position{margin-left:53%;margin-top:0;font-size:1.5vw}.text-center-webkit{margin-top:5%}}@media only screen and (min-width:1440px){.fa-terminal{font-size:5em}.title{margin-left:47%;font-size:3vw}.position{margin-left:47%;margin-top:0;font-size:2vw}.text-center-webkit{margin-top:5%}}
+/* HTML */
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+}
+
+
+/* Header */
+
+.logo {
+    position: absolute;
+    margin-top: 2%;
+}
+
+.introduction {
+    position: relative;
+    float: right;
+    padding-left: 7% !important;
+}
+
+.title {
+    font-size: 6.0vw;
+}
+
+.position {
+    font-size: 4.5vw;
+    margin-top: 0;
+}
+
+hr {
+    border-top: 5px solid #eee !important;
+}
+
+
+/* Body */
+
+.computer-img {
+    max-width: 102%;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 5%;
+    background-color: #000;
+    padding-top: 3%;
+}
+
+.copyright {
+    margin-top: 3%;
+}
+
+
+/* Utilities */
+
+.margin-right-xs {
+    margin-right: 1%;
+}
+
+.margin-top-sm {
+    margin-top: 5%;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.text-center-webkit {
+    text-align: -webkit-center;
+}
+
+
+/* Media queries */
+
+@media only screen and (min-width: 768px) and (max-width: 1320px) {
+    .fa-terminal {
+        font-size: 5em;
+    }
+    .title {
+        margin-left: 53%;
+        font-size: 3.0vw;
+    }
+    .position {
+        margin-left: 53%;
+        margin-top: 0;
+        font-size: 1.5vw;
+    }
+    .text-center-webkit {
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .fa-terminal {
+        font-size: 5em;
+    }
+    .title {
+        margin-left: 47%;
+        font-size: 3.0vw;
+    }
+    .position {
+        margin-left: 47%;
+        margin-top: 0;
+        font-size: 2vw;
+    }
+    .text-center-webkit {
+        margin-top: 5%;
+    }
+}
