@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-projeto",
+  "version": "1.0.0",
+  "description": "Projeto nanodegree Udacity criar um portfólio",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-clean-css": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-stylus": "^2.6.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-uglify": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aline Aline <alinecris@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp-concat": "^2.6.1",
+    "gulp-data": "^1.2.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}
